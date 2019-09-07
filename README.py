@@ -16,6 +16,7 @@ slices: that is, `arr[a:b, c:d, e:f]` is equivalent to
 This module doesn't import Numpy at all (except in the unit test when
 `__name__` is '__main__') since it generates pure-Python slices.
 """
+
 from itertools import product
 from typing import List
 
